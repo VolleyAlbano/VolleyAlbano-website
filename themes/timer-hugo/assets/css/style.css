@@ -67,6 +67,12 @@ a:hover {
     }
 }
 
+@media(max-width: 480px) 
+{
+    .download-img {
+      width: 30px;
+    }
+}
 
 .section-heading {
   text-align: center;
