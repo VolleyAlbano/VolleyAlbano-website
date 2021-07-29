@@ -1,0 +1,140 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "A.S.D. Volley Albano"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "Home"
+url     = "/"
+weight  = 1
+[[menu.main]]
+name    = "Società"
+url     = "società"
+weight  = 2
+[[menu.main]]
+name    = "Sponsor"
+url     = "sponsor"
+weight  = 3
+[[menu.main]]
+name    = "Squadre"
+url     = "squadre"
+weight  = 4
+[[menu.main]]
+name    = "Documenti"
+url     = "documenti"
+weight  = 5
+[[menu.main]]
+name    = "Contatti"
+url     = "contact"
+weight  = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.jpg"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "A.S.D VOLLEY ALBANO"
+description = "L’A.S.D. VOLLEY ALBANO è attualmente affiliata al CENTRO SPORTIVO ITALIANO – C.S.I. cui partecipa a livello provinciale con i Campionati dei gironi ESORDIENTI, GIOVANISSIME, MINI ALLIEVE, ALLIEVE, LIBERE."
+# button
+btn     = false
+btnText = "Download More"
+btnURL  = "https://themefisher.com/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "SPORT"
+[[params.banner.flipText]]
+title   = "VOLLEY"
+[[params.banner.flipText]]
+title   = "ALBANO"
+
+# Homepage About Section
+
+[params.about]
+enable  = true
+title   = "L'ASD Volley Albano oggi"
+content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+image   = "images/about/about.jpg"
+
+[params.storia]
+enable  = true
+title   = "Cenni storici"
+content = "Tutto è nato alcuni anni fa quando, grazie alla partecipazione attiva di alcuni genitori, si era deciso di costituire una società in grado di offrire la possibilità di praticare la pallavolo a ragazze/ragazzi di Albano e paesi limitrofi. <br> Le squadre iscritte erano solamente due e il tutto poteva essere gestito a livello amatoriale. <br>L'inquadramento fiscale della società è avvenuta solamente nel 2013 essendosi reso necessario adempiere anche agli impegni ed agli obblighi previsti dalle vigenti normative di legge."
+image   = "images/about/about1.jpg"
+
+[params.oggi]
+enable  = true
+title   = "L'ASD Volley Albano oggi"
+content = "Attualmente l’ASSOCIAZIONE SPORTIVA DILETTANTISTICA – A.S.D. VOLLEY ALBANO è registrata all’Agenzia delle Entrate con Codice Fiscale e Partita Iva. <br> E' attualmente affiliata al Centro Sportivo Italiano - C.S.I. e a livello nazionale al CONI. Conta più di 100 associati tra consiglio direttivo, allenatori, aiutanti e atlete delle varie categorie."
+image   = "images/about/about2.jpg"
+
+[params.obiettivi]
+enable  = true
+title   = "Obiettivi"
+content = "L'Associazione Sportiva Dilettantistica A.S.D. VOLLEY ALBANO riconosce la Pallavolo come un’occasione di Crescita e Sviluppo Umano e Sportivo di ragazzi e ragazze. <br> La Volley Albano si basa sull'impegno volontario di persone animate dall'interesse comune verso lo sport ed i suoi valori educativi. <br><br>Gli Obiettivi che ci prefiggiamo di raggiungere sono: <br> •	Insegnare uno Sport <br> •	Divertirsi e stare bene <br> •	Crescere umanamente in armonia con le famiglie e le istituzioni"
+image   = "images/about/about3.jpg"
+
+[params.collaboratori]
+enable  = true
+title   = "Collaboratori esterni"
+content = "L’A.S.D. VOLLEY ALBANO si avvale anche della preziosa collaborazione dei genitori delle atlete che forniscono la propria disponibilità durante le manifestazioni ludico ricreative (feste di fine anno, partecipazione a manifestazioni extra campionato, ecc…) o durante le partite di campionato (trasporto delle atlete durante le partite fuori casa, servizio di segna punti, ecc…)."
+image   = "images/about/about5.jpg"
+
+[params.strutture]
+enable  = true
+title   = "Strutture sportive"
+content = "Le strutture sportive dove l’A.S.D. VOLLEY ALBANO si allena e partecipa ai Campionati provinciali promossi dal C.S.I. sono gentilmente concesse in uso gratuito dal Comune di Albano S.Alessandro cui rivolgiamo un sentito ringraziamento. <br>Questa concessione permette alla A.S.D. VOLLEY ALBANO di rendersi autonoma e indipendente da altre società per lo svolgimento degli allenamenti delle atlete. <br>Inoltre, l’utilizzo del Palazzetto Comunale durante le partite di Campionato, è motivo di orgoglio della società che è in grado di sfoggiare una struttura sportiva di prim’ordine."
+image   = "images/about/about4.jpg"
+
+[params.clients]
+enable  = true
+content = "Un particolare ringraziamento va’ pertanto alle aziende: <br><br> •	Yarno Immobiliare s.r.l. <br> •	Burago Viti <br> •	Ottica Cimardi <br> •	Magni Frigo <br> •	BCC Oglio e Serio <br> •	MG Tinteggiature di Manuel Gamba <br> • Mangili Dario"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "SO WHAT YOU THINK ?"
+content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+btnText = "Contact with me"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = true
+title   = "Latest Works"
+subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+# Sezione news
+[params.news]
+enable  = true
+title   = "Dicono di noi"
+
+# Sezione squadre
+[params.squadre]
+enable  = true
+title   = "Le nostre squadre"
+content= "Eccoci giunti finalmente al cuore della A.S.D. VOLLEY ALBANO: le nostre squadre e le nostre atlete.<br>Attualmente la VOLLEY ALBANO, oltre allo Staff Tecnico composto da Allenatori e aiuto Allenatori, gestisce circa 80 atlete tesserate C.S.I. così suddivise:<br> <br>•	MINIVOLLEY - Età compresa tra gli 8 e 9 anni (classe 2 e 3 scuola Primaria 1° grado) <br>  •	ESORDIENTI - Età compresa tra i 10 e 11 anni (classe 4 e 5 scuola Primaria 1° grado) <br>  •	GIOVANISSIME - Età compresa tra i 12 e 13 anni (classe 1 e 2 scuola Secondaria 1° grado) <br>  •	MINI ALLIEVE - Età compresa tra i 14 e 15 anni (classe 3 scuola Secondaria 1° grado e 1 Secondaria 2° grado) <br>  •	ALLIEVE - Età compresa tra i 16 e 17 anni (classe 2 e 3 scuola Secondaria 2° grado) <br>  •	LIBERE - Ragazze maggiorenni <br>"
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "https://www.facebook.com/volleyalbano/"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "https://www.instagram.com/volleyalbano/"

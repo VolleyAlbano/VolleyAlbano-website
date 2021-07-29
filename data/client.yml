@@ -1,0 +1,12 @@
+enable  : true
+title   : I NOSTRI SPONSOR
+subtitle: L’A.S.D. VOLLEY ALBANO riesce a fronteggiare le spese per le attrezzature sportive e gli Allenatori, oltre che con le quote di iscrizione delle atlete, anche grazie al contributo volontario di sponsor locali cui evidentemente riconoscono l’importanza e l’impegno del lavoro svolto dalla Società.
+clientsLogo:
+  - image : images/clients/logo-1.jpg
+  - image : images/clients/logo-2.jpg
+  - image : images/clients/logo-3.jpg
+  - image : images/clients/logo-4.jpg
+  - image : images/clients/logo-5.jpg
+  - image : images/clients/logo-6.jpg
+  - image : images/clients/logo-7.jpg
+  - image : images/clients/logo-8.jpg

@@ -1,0 +1,15 @@
+enable  : true
+a2018Images :
+  - image : images/2018/miniVolley.jpg
+    titolo: "Minivolley"
+  - image : images/2018/esordienti.jpg
+    titolo: "Esordienti"
+  - image : images/2018/giovanissime.jpg
+    titolo: "Giovanissime"
+  - image : images/2018/miniAllieve.jpg
+    titolo: "Mini Allieve"
+  - image : images/2018/allieve.jpg
+    titolo: "Allieve"
+  - image : images/2018/libere.jpg
+    titolo: "Libere"
+

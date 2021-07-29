@@ -1,0 +1,38 @@
+enable  : true
+title   : Il nostro Direttivo
+subtitle: >
+  L’Organigramma della A.S.D. VOLLEY ALBANO è composto dal CONSIGLIO DIRETTIVO che, ricordiamo, è composto da persone che dedicano il loro tempo a questa associazione <u>esclusivamente a titolo gratuito</u> al fine di permettere ai ragazzi del nostro Comune di avere un luogo dove divertirsi, giocare e crescere. Il Direttivo è così composto:
+item    :
+  - icon  : ion-ios-flask-outline
+    title : Presidente
+    description : >
+      Stefano Murgia
+
+  - icon  : ion-ios-lightbulb-outline
+    title : Vice-presidente 
+    description : 
+
+  - icon  : ion-ios-americanfootball-outline
+    title : Tesoriere 
+    description : 
+
+  - icon  : ion-ios-keypad-outline
+    title : Segretaria 
+    description : 
+
+  - icon  : ion-ios-barcode-outline
+    title : Consigliere 
+    description : 
+  
+  - icon  : ion-ios-barcode-outline
+    title : Consigliere 
+    description : 
+  - icon  : ion-ios-barcode-outline
+    title : Consigliere 
+    description :
+  - icon  : ion-ios-barcode-outline
+    title : Consigliere 
+    description :
+  - icon  : ion-ios-barcode-outline
+    title : Consigliere 
+    description :

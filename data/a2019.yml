@@ -1,0 +1,6 @@
+enable  : true
+a2019Images :
+  - image : images/2019/miniAllieve.jpg
+    titolo: "Mini Allieve"
+  - image : images/2019/libere.jpg
+    titolo: "Libere"
