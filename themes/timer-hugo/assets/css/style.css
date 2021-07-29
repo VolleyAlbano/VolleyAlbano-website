@@ -71,10 +71,14 @@ a:hover {
   padding: 6%;
 }
 
+.column-phone{
+  width: 5%;
+}
+
 @media(max-width: 480px) 
 {
     .column-phone {
-      width: 5%;
+      width: 23%;
     }
 }
 
@@ -93,10 +97,14 @@ a:hover {
     }
 }
 
+.download-img{
+  max-width: 90%;
+}
+
 @media(max-width: 480px) 
 {
     .download-img {
-      width: 30px;
+      width: 50px;
     }
 }
 

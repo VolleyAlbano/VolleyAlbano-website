@@ -1,13 +1,10 @@
 enable  : true
 squadreImages :
-  - image : images/portfolio/item-4.jpg
-    link : "../a2019"
-  - image : images/portfolio/item-3.jpg
-    link : "../a2018"  
-  - image : images/portfolio/item-2.jpg
-    link : "../a2017"
   - image : images/portfolio/item-1.jpg
     link : "../a2016"
-  
-
-  
+  - image : images/portfolio/item-2.jpg
+    link : "../a2017"
+  - image : images/portfolio/item-3.jpg
+    link : "../a2018"
+  - image : images/portfolio/item-4.jpg
+    link : "../a2019"
