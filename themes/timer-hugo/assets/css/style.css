@@ -58,6 +58,12 @@ a:hover {
     }
 }
 
+@media(max-width: 480px) 
+{
+    .sponsor {
+      padding: 10%
+    }
+}
 
 .home{
   width: 50%; 
