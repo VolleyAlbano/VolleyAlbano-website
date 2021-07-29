@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Anno 2017-2018 on A.S.D. Volley Albano</title>
-    <link>https://example.org/a2017/</link>
-    <description>Recent content in Anno 2017-2018 on A.S.D. Volley Albano</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jul 2018 16:19:08 +0600</lastBuildDate><atom:link href="https://example.org/a2017/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Anno 2017-2018 on A.S.D. Volley Albano</title><link>https://volleyalbano.github.io/VolleyAlbano-website/a2017/</link><description>Recent content in Anno 2017-2018 on A.S.D. Volley Albano</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 14 Jul 2018 16:19:08 +0600</lastBuildDate><atom:link href="https://volleyalbano.github.io/VolleyAlbano-website/a2017/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
