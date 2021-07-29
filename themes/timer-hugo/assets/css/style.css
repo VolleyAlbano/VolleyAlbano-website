@@ -54,6 +54,13 @@ a:hover {
 
 @media(max-width: 480px) 
 {
+    .column-phone {
+      width: 50%;
+    }
+}
+
+@media(max-width: 480px) 
+{
     .home {
       width: 100%;
       float: none;
