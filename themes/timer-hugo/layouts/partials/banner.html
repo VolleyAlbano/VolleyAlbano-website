@@ -1,0 +1,27 @@
+{{ if .Site.Params.banner.enable }}
+{{ "<!-- Slider Section Start -->" | safeHTML }}
+<section id="hero-area" style='background-position-y: -80px; padding-top: 8%;padding-bottom: 27%; ;background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="block wow fadeInUp" data-wow-delay=".3s">
+          {{ "<!-- Slider -->" | safeHTML}}
+          <section class="cd-intro">
+            <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s">
+              {{ with .Site.Params.banner.heading }}<span>{{ . }}</span>{{ end }}
+              <br>
+              
+            </h1>
+          </section>
+          {{ with .Site.Params.banner.description }}<div class="wow fadeInUp animated" style ="color: gray;" data-wow-delay=".6s">{{ . }}</div>
+          {{ end }}
+          {{ if .Site.Params.banner.btn }}
+          
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- Slider Section End -->" | safeHTML }}
+{{ end }}

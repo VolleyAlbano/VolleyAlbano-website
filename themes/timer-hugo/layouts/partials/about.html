@@ -1,0 +1,73 @@
+{{ if .Site.Params.about.enable }}
+{{ "<!-- About Section Start -->" | safeHTML }}
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="row-home">
+				
+				<div class="home block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.storia.title }}<h2>{{ . }}</h2>{{ end }}
+					{{ with .Site.Params.storia.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+				</div>
+
+				<div class="home block wow fadeInRight " data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.storia.image }}<img src="{{ . | absURL }}" alt="about-image">{{ end }}
+				</div>
+
+			</div>
+
+
+			<div class="row-home">
+
+				<div class="home block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.obiettivi.image }}<img src="{{ . | absURL }}" alt="about-image">{{ end }}
+				</div>
+
+
+				<div class="home block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.obiettivi.title }}<h2>{{ . }}</h2>{{ end }}
+					{{ with .Site.Params.obiettivi.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+				</div>
+			</div>
+
+			<div class="row-home">					
+				<div class="home block wow fadeInLeft"  data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.oggi.title }}<h2>{{ . }}</h2>{{ end }}
+					{{ with .Site.Params.oggi.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+				</div>
+
+				<div class="home block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.oggi.image }}<img src="{{ . | absURL }}" alt="about-image">{{ end }}
+				</div>
+
+			</div>
+
+			<div class="row-home" style="padding-top: 2%; padding-bottom: 2%;">
+
+				<div class="home block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.collaboratori.image }}<img src="{{ . | absURL }}" alt="about-image">{{ end }}
+				</div>
+
+
+				<div class="home block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.collaboratori.title }}<h2>{{ . }}</h2>{{ end }}
+					{{ with .Site.Params.collaboratori.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+				</div>
+			</div>
+
+			<div class="row-home">					
+				<div class="home block wow fadeInLeft"  data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.strutture.title }}<h2>{{ . }}</h2>{{ end }}
+					{{ with .Site.Params.strutture.content }}<p>{{ . | safeHTML }}</p>{{ end }}
+				</div>
+
+				<div class="home block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
+					{{ with .Site.Params.strutture.image }}<img src="{{ . | absURL }}" alt="about-image">{{ end }}
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- About Section End -->" | safeHTML }}
+{{ end }}
