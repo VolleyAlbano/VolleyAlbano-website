@@ -60,6 +60,14 @@ a:hover {
     }
 }
 
+@media(max-width: 480px) 
+{
+    .container-phone {
+      padding-top: 30%;
+    }
+}
+
+
 .section-heading {
   text-align: center;
   margin-bottom: 65px;
