@@ -1,5 +1,6 @@
 {{ if .Site.Params.banner.enable }}
 {{ "<!-- Slider Section Start -->" | safeHTML }}
+<div>
 <section id="hero-area" style='background-position-y: -80px; padding-top: 8%;padding-bottom: 27%; ;background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
   <div class="container" style = "    padding-top: 9%;">
     <div class="row">
@@ -23,5 +24,6 @@
     </div>
   </div>
 </section>
+</div>
 {{ "<!-- Slider Section End -->" | safeHTML }}
 {{ end }}
