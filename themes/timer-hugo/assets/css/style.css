@@ -46,6 +46,19 @@ a:hover {
   outline: 0;
 }
 
+
+.img-logo{
+  max-width: 35%
+}
+
+@media(max-width: 480px) 
+{
+    .img-logo {
+      max-width: 85%
+    }
+}
+
+
 .home{
   width: 50%; 
   float: right; 
