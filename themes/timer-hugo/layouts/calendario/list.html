@@ -1,0 +1,35 @@
+  
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section id="calendario" class="document" >
+    <div class="container">
+      <div class="section-heading">
+        {{ with .Site.Params.calendario.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
+
+        {{ with .Site.Params.calendario.content }}
+        <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+          {{ . | safeHTML }}
+        </p>
+        {{ end }}
+
+
+      </div>
+    </div>
+
+
+    <div>
+        <object style=" width: 100%; height: 710px; position: relative;" 
+          data='../documenti/Calendario-302-E.pdf'
+          type="application/pdf"
+        ></object>
+   
+
+    </div>  
+      
+</section>   
+
+
+
+{{ end }}

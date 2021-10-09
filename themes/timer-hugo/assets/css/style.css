@@ -1005,7 +1005,7 @@ article {
 }
 
 .document {
-  padding: 100px;
+  padding: 10%;
 }
 
 .document figure .buttons {
@@ -1428,5 +1428,11 @@ ul.social-icons li {
 #copyright a:hover {
   text-decoration: none;
 }
+
+
+
+
+
+
 
 /*# sourceMappingURL=maps/style.css.map */
