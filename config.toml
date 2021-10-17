@@ -1,4 +1,4 @@
-baseURL = "https://volleyalbano.github.io/VolleyAlbano-website/"
+baseURL = "https://example.org"
 languageCode = "en-us"
 title = "A.S.D. Volley Albano"
 theme = "timer-hugo"
@@ -133,6 +133,14 @@ title   = "Dicono di noi"
 enable  = true
 title   = "Calendario anno 2021/2022"
 content = "In questa pagina potrai consultare e scaricare i calendari delle squadre"
+
+
+
+# Sezione documenti
+[params.documenti]
+enable  = true
+title   = "Moduli per iscrizione"
+content = "In questa sezione potrai trovare tutti i documenti necessari."
 
 # Sezione squadre
 [params.squadre]

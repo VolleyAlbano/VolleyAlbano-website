@@ -1,0 +1,10 @@
+enable  : true 
+calendari :
+  - desc : Calendario Libere - Girone E
+    link : "../documenti/Calendario-302-E.pdf"
+  - desc : Elenco squadre Libere - Girone E
+    link : "../documenti/ElencoSquadre-302-E.pdf"
+  - desc : Calendario Giovanissime - Girone E
+    link : "../documenti/Calendario-307-E.pdf"
+  - desc : Elenco squadre Giovanissime - Girone E
+    link : "../documenti/ElencoSquadre-307-E.pdf"

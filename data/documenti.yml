@@ -1,0 +1,8 @@
+enable  : true 
+documenti :
+  - desc : Modulo da compilare per iscriversi
+    link : "../documenti/Modulo Iscrizione e Privacy.pdf"
+  - desc : Indicazioni per l'iscrizione
+    link : "../documenti/Indicazioni Iscrizioni Volley Albano.pdf"
+  - desc : Regolamento Volley Albano
+    link : "../documenti/Regolamento Volley Albano V2.pdf"

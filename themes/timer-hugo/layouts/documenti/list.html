@@ -3,43 +3,40 @@
 
 {{ partial "page-title.html" . }}
 
-<section id="document" class="document">
+<section id="document" class="document" style="padding: 6%">
   <div class="container">
-    
-  <p>In questa sezione potrai trovare tutti i documenti necessari.</p>
-  <br>
+      <div class="section-heading">
+        {{ with .Site.Params.documenti.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
+
+        {{ with .Site.Params.documenti.content }}
+        <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+          {{ . | safeHTML }}
+        </p>
+        {{ end }}
+
+
+      </div>
+    </div>
+
+    <div class="container calendar-align">
 
 
       <table>
+        {{ range $index, $element := .Site.Data.documenti.documenti }}
+        {{ $delay := mul $index 300 }}
           <tr>
-              <td class=column-phone>
-              <a title=Iscrizione href="../documenti/Modulo Iscrizione e Privacy.pdf" style=color:#000>
-              <img class=download-img src=../images/download.png alt=Download></a>
+            <td class=column-phone>
+              <img class=download-img src=../images/download.png alt=Download style="max-width: 60%;"> 
+            </td>
+           <td style=padding:1%>
+              <a title=Iscrizione href="{{ .link }}" style=color:#000> {{ .desc }} </a>
               </td>
-              <td style=padding:1%>
-              <h5>Modulo da compilare per l'iscrizione</h5>
-              </td>
-          </tr>
-          <tr>
-              <td class=column-phone>
-              <a title=Iscrizione href="../documenti/Indicazioni Iscrizioni Volley Albano.pdf" style=color:#000>
-              <img class=download-img src=../images/download.png alt=Download></a>
-              </td>
-              <td style=padding:1%>
-              <h5>Indicazioni per l'iscrizione</h5>
-              </td>
-          </tr>
-          <tr>
-              <td class=column-phone>
-              <a title=Regolamento href="../documenti/Regolamento Volley Albano V2.pdf" style=color:#000>
-              <img class=download-img src=../images/download.png alt=Download></a>
-              </td>
-              <td style=padding:1%>
-              <h5>Regolamento Volley Albano</h5>
-              </td>
-          </tr>
+          </tr> 
+        {{ end }}           
       </table>
 
+
+</div>
 
   </div>    
       

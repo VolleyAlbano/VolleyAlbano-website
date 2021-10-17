@@ -1,9 +1,9 @@
-  
+   
 {{ define "main" }}
 
 {{ partial "page-title.html" . }}
 
-<section id="calendario" class="document" >
+<section id="calendario" class="document"  style="padding: 6%">
     <div class="container">
       <div class="section-heading">
         {{ with .Site.Params.calendario.title }}<h1 class="title wow fadeInDown" data-wow-delay=".3s">{{ . }}</h1>{{ end }}
@@ -19,12 +19,28 @@
     </div>
 
 
-    <div>
-
-      <iframe src="../documenti/Calendario-302-E.pdf#view=fitH" width="100%" height="800px" mimeType ="application/pdf"></iframe>
+    <div class="container calendar-align">
 
 
-    </div>  
+
+      <table>
+        {{ range $index, $element := .Site.Data.calendario.calendari }}
+        {{ $delay := mul $index 300 }}
+          <tr>
+            <td class=column-phone>
+              <img class=download-img src=../images/calendar.png alt=Calendar style="max-width: 60%;"> 
+            </td>
+            <td >
+              <a title=calendario href="{{ .link }}" style=color:#000> {{ .desc }} </a>
+            </td>
+          </tr> 
+        {{ end }}           
+      </table>
+
+      
+    </div>
+
+
       
 </section>   
 
