@@ -1,4 +1,4 @@
-baseURL = "https://example.org"
+baseURL = "https://volleyalbano.github.io/VolleyAlbano-website/"
 languageCode = "en-us"
 title = "A.S.D. Volley Albano"
 theme = "timer-hugo"
