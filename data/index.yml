@@ -1,5 +1,8 @@
 enable  : true 
 index :
-  - link : "../images/giornoProva.jpeg"
-  - link : "../images/palio1.jpeg"
-  - link : "../images/palio2.jpeg"
+  - desc : "giornata di prova"
+    link : "../images/giornoProva.jpeg"
+  - desc : palio 1"
+    link : "../images/palio1.jpeg"
+  - desc : "palio 2"
+    link : "../images/palio2.jpeg"
