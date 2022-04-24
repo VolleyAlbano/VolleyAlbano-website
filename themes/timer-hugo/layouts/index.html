@@ -4,7 +4,15 @@
 
 <div class="container">
 	
-	<div class="img-wrapper">
+	{{ range $index, $element := .Site.Data.index.index }}
+        {{ $delay := mul $index 300 }}
+           <td style=padding:1%>
+		<img src="{{ .link }}" style="width:100%" class="img-fluid" alt={{ .desc }}>
+              </td>
+          </tr> 
+        {{ end }}
+	
+	<!-- <div class="img-wrapper">
 		<img src="images/giornoProva.jpeg" style="width:100%" class="img-fluid" alt="prova">
 
 	</div> 
@@ -22,7 +30,7 @@
 	<div class="img-wrapper">
 		<img src="images/5x1000.jpg" style="" class="img-fluid" alt="News Volley Albano">
 
-	</div> 
+	</div>  -->
 </div>
 
 
