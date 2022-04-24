@@ -1,7 +1,7 @@
 enable  : true 
 index :
   - desc : "giornata di prova"
-    link : "../images/giornoProva.jpeg"
+    link : "./images/giornoProva.jpeg"
   - desc : palio 1"
     link : "../images/palio1.jpeg"
   - desc : "palio 2"
